@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="try_event_button">
+        <button onclick="change_color()">Change color text below To Blue</button>
+        <p id="text" style="color: grey;">Welcome to Pune</p>
+    </div>
+</body>
+</html>
+<script>
+    const text_color=document.getElementById("text");
+     
+     function change_color()
+     {
+        text_color.style.color="blue";
+     }
+</script>
